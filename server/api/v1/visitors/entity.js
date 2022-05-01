@@ -6,10 +6,10 @@ const fields = {
     required: true,
     default: 'Anónimo',
   },
-  date: {
-    type: Date,
+  count: {
+    type: Number,
     required: true,
-    default: Date.now,
+    default: 1,
   },
 };
 
