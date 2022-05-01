@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.0.1",
   "description": "Test app.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
