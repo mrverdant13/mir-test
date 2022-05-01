@@ -11,8 +11,11 @@ const app = express();
 // Enable CORS
 app.use(cors());
 
-// Process JSON payload.
-app.use(express.json());
+// // Process JSON payload.
+// app.use(express.json());
+
+// Process URL-encoded payload.
+app.use(express.urlencoded());
 
 // Set request IDs on each request.
 app.use(reqIdSetter);
